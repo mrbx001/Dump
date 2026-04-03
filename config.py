@@ -37,3 +37,6 @@ class Config:
     
     def linex(self):
         print(f"{self.mc}═{'═' * 48}{self.z}")
+    
+    def box(self, char):  # 🔥 এই line যোগ করেছি!
+        return f"{self.mc}╔═{char}═{self.z}"
